@@ -1,6 +1,6 @@
 # Hemodynamic timing in resting-state and breathing-task BOLD fMRI
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 DOI: << paste here when it exists >> 
 
@@ -165,6 +165,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/jingxuangong"><img src="https://avatars.githubusercontent.com/u/67284851?v=4?s=100" width="100px;" alt="Jingxuan"/><br /><sub><b>Jingxuan</b></sub></a><br /><a href="https://github.com/BrightLab-ANVIL/Gong_2022/commits?author=jingxuangong" title="Code">💻</a> <a href="#ideas-jingxuangong" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/BrightLab-ANVIL/Gong_2022/commits?author=jingxuangong" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://linkedin.com/in/rstickland-phd"><img src="https://avatars.githubusercontent.com/u/50215726?v=4?s=100" width="100px;" alt="Rachael Stickland"/><br /><sub><b>Rachael Stickland</b></sub></a><br /><a href="https://github.com/BrightLab-ANVIL/Gong_2022/pulls?q=is%3Apr+reviewed-by%3ARayStick" title="Reviewed Pull Requests">👀</a> <a href="#ideas-RayStick" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/BrightLab-ANVIL/Gong_2022/commits?author=RayStick" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
