@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "jingxuangong",
+      "name": "Jingxuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67284851?v=4",
+      "profile": "https://github.com/jingxuangong",
+      "contributions": [
+        "code",
+        "ideas",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Gong_2022",
+  "projectOwner": "BrightLab-ANVIL"
+}

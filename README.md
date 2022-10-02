@@ -1,4 +1,7 @@
 # Hemodynamic timing in resting-state and breathing-task BOLD fMRI
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 DOI: << paste here when it exists >> 
 
 Unfortunately we do not have the permission to share the fMRI files, but we hope this workflow doc explains the data analysis structure! 
@@ -150,3 +153,28 @@ __Inputs__
 
 __Outputs__
 -	Histograms of probability density estimates of MSI for voxels in different amplitude threshold bands of: 0-0.2, 0.2-0.4, 0.4-0.6, >0.6
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/jingxuangong"><img src="https://avatars.githubusercontent.com/u/67284851?v=4?s=100" width="100px;" alt="Jingxuan"/><br /><sub><b>Jingxuan</b></sub></a><br /><a href="https://github.com/BrightLab-ANVIL/Gong_2022/commits?author=jingxuangong" title="Code">💻</a> <a href="#ideas-jingxuangong" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/BrightLab-ANVIL/Gong_2022/commits?author=jingxuangong" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
