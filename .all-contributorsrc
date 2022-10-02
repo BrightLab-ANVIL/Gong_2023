@@ -16,6 +16,17 @@
         "ideas",
         "doc"
       ]
+    },
+    {
+      "login": "RayStick",
+      "name": "Rachael Stickland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50215726?v=4",
+      "profile": "http://linkedin.com/in/rstickland-phd",
+      "contributions": [
+        "review",
+        "ideas",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
