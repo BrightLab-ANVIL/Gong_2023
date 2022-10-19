@@ -33,7 +33,7 @@ https://rapidtide.readthedocs.io/en/stable/introduction.html
 
 #### To run rapidtide from command line (example for BH task dataset):
 ```
-path_to_rapidtide/rapidtide parent_path/sub-01_task-BH_acq-mb4_bold_mc_brain.nii.gz parent_path/Output_BH/sub-01_task-BH/sub-01_task-BH --globalmeaninclude parent_path/sub-01_GM-MASK50_fMRI.nii.gz:1 --refineinclude parent_path/sub-01_GM-MASK50_fMRI.nii.gz:1 --delaymapping --autosync --datatstep 1.2 --detrendorder 0 --oversampfac 4 --passes 3 --despecklepasses 4 --filterband lfo --searchrange -15 15 --pickleft --nolimitoutput --spatialfilt -1
+path_to_rapidtide/rapidtide parent_path/sub-01_task-BH_acq-mb4_bold_mc_brain.nii.gz parent_path/Output_BH/sub-01_task-BH/sub-01_task-BH --globalmeaninclude parent_path/sub-01_GM-MASK50_fMRI.nii.gz:1 --refineinclude parent_path/sub-01_GM-MASK50_fMRI.nii.gz:1 --delaymapping --datatstep 1.2 --detrendorder 0 --oversampfac 4 --passes 3 --despecklepasses 4 --filterband lfo --searchrange -15 15 --pickleft --nolimitoutput --spatialfilt -1
 ```
 
 -	Do NOT add or remove the options trailing the directories, they are the same for all file inputs regardless of task or rest. Only change the input and output directories to fit the use of your computer.
