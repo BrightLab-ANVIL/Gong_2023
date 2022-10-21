@@ -1,4 +1,4 @@
-function CorrelationBand_Group-Boxplots(inputdir,outputdir,corrthres)
+function CorrelationBand_Group_Boxplots(inputdir,outputdir,corrthres)
 % This code generates boxplots to summarize group results based on the outputs of CorrelationBand_Calc.m (all GM voxels).
 %
 % inputdir: The location of the input files (ends in '/')
