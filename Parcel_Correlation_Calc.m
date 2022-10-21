@@ -1,4 +1,4 @@
-function Parcel-Correlation_Calc(restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
+function Parcel_Correlation_Calc(restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
 % This code computes the correlation between task and rest segments on the lag times 
 % at different amplitude thresholds calculated from the rapiditde toolbox. 
 % This function is the same Correlation_Calc.m but performs the analysis seperately for each GM subregion. 
