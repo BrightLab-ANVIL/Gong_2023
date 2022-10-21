@@ -1,4 +1,4 @@
-function Parcel-Correlation_Group_Others(inputdir,outputdir,corrthres)
+function Parcel_Correlation_Group_Others(inputdir,outputdir,corrthres)
 % This code generates group summary plots (slope, r, intercepts) based on the outputs of
 % Parcel-Correlation_Calc.m.
 %
