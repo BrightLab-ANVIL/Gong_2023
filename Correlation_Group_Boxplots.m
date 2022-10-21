@@ -1,4 +1,4 @@
-function Correlation_Group-Boxplots(datatypes,inputdir,outputdir,corrthres)
+function Correlation_Group_Boxplots(datatypes,inputdir,outputdir,corrthres)
 % This code generates boxplots to summarize group results based on the outputs of Correlation_Calc.m (all GM voxels).
 %
 % datatypes: BH or CDB data.
