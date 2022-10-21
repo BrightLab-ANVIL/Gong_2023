@@ -1,4 +1,4 @@
-function Correlation_Subject-Scatterplots(datatypes,restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
+function Correlation_Subject_Scatterplots(datatypes,restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
 % This code outputs subject-specific scatterplots showing the relationship between lag values for rest and task, at several
 % different thresholds, with regression lines on the scatterplots.
 %
