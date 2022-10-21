@@ -70,7 +70,7 @@ __Outputs__
 
 For analysis of amplitude threshold **bands**, [CorrelationBand_Calc.m](CorrelationBand_Calc.m) was run, and the inputs and outputs match what is described above. An additional output (for less-smoothed Rapidtide outputs only) is a MATLAB data file of group median values of slope, correlation coefficient (Z-transformed), and voxel percentage remaining for each amplitude threshold band. This is for the use of comparing with additionally smoothed Rapidtide outputs in plots.  
 
-#### 1B) [Correlation_Subject-Scatterplots.m](Correlation_Subject-Scatterplots.m) (datatypes,restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
+#### 1B) [Correlation_Subject_Scatterplots.m](Correlation_Subject_Scatterplots.m) (datatypes,restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
 
 This function produces a graphical representation of the previous step, therefore can be done independently of the previous step and is not required for later analysis.
 
@@ -83,9 +83,9 @@ __Outputs__
 - Scatterplot of the relationship between delay times (task plotted against rest) at different amplitude thresholds, with regression lines of best fit
    - Only shows representative amplitude thresholds of: all GM (no threshold), 0, 0.4, maximum threshold with unique regression fitting (0.6 for CDB sub-06, 0.7 for others)
    
-For analysis of amplitude threshold **bands**, [CorrelationBand_Subject-Scatterplots.m](CorrelationBand_Subject-Scatterplots.m) was run, and the inputs and outputs match what is described above. Representative amplitude threshold bands are plotted: 0-0.2, 0.2-0.4, 0.4-0.6.
+For analysis of amplitude threshold **bands**, [CorrelationBand_Subject_Scatterplots.m](CorrelationBand_Subject_Scatterplots.m) was run, and the inputs and outputs match what is described above. Representative amplitude threshold bands are plotted: 0-0.2, 0.2-0.4, 0.4-0.6.
 
-#### 1C) [Correlation_Group-Boxplots.m](Correlation_Group-Boxplots.m) (datatypes,inputdir,outputdir,corrthres)
+#### 1C) [Correlation_Group_Boxplots.m](Correlation_Group_Boxplots.m) (datatypes,inputdir,outputdir,corrthres)
 
  This function generates group summary plots based on the outputs of (1A). 
 
@@ -95,13 +95,13 @@ __Inputs__
 __Outputs__
 - Boxplots of group average slope, correlation coefficient (Z-transformed), intercept, and voxel percentage remaining
 
-For analysis of amplitude threshold **bands**, [CorrelationBand_Group-Boxplots.m](CorrelationBand_Group-Boxplots.m) was run, and the inputs and outputs match what is described above. For additionally smoothed outputs, the less-smoothed outputs are overlaid for ease of comparison.
+For analysis of amplitude threshold **bands**, [CorrelationBand_Group_Boxplots.m](CorrelationBand_Group_Boxplots.m) was run, and the inputs and outputs match what is described above. For additionally smoothed outputs, the less-smoothed outputs are overlaid for ease of comparison.
 
 ### Part 2. GM voxels in specific subregions (parcels)
 
 This part was run on the BH+REST dataset (less-smoothed inputs only).
 
-#### 2A)  [Parcel-Correlation_Calc.m](Parcel-Correlation_Calc.m) (restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
+#### 2A)  [Parcel_Correlation_Calc.m](Parcel_Correlation_Calc.m) (restlag,tasklag,mask_inputdir,mask_prefix,outputdir,subject_list)
 
 This function is the same as (1A-Correlation_Calc.m) but performs the correlation seperately for each GM subregion.  
 
@@ -114,22 +114,22 @@ __Outputs__
 - Excel sheets and .mat files recording the correlation between delay times at different amplitude thresholds, for future group average analysis and plotting
   - These files are important for generating group average boxplots
 
-#### 2B)  [Parcel-Correlation_Group-PerPlot.m](Parcel-Correlation_Group-PerPlot.m) (inputdir,outputdir,corrthres)
+#### 2B)  [Parcel_Correlation_Group_PerPlot.m](Parcel_Correlation_Group_PerPlot.m) (inputdir,outputdir,corrthres)
 
 This function plots the percentage of voxels passing the amplitude threshold in task and rest data segments, using outputs from 2A (Parcel-Correlation_Calc.m)
 
 __Inputs__
-- Parcel-Correlation_Calc.m outputs - Excel sheets and .mat files 
+- Parcel_Correlation_Calc.m outputs - Excel sheets and .mat files 
 
 __Outputs__
 - A plot of median voxel percentage passing each amplitude threshold, across all subjects. Each colored line represents a different GM parcel with the entire GM as a black line.
 
-#### 2C)  [Parcel-Correlation_Group-Others.m](Parcel-Correlation_Group-Others.m) (inputdir,outputdir,corrthres)
+#### 2C)  [Parcel_Correlation_Group_Others.m](Parcel_Correlation_Group_Others.m) (inputdir,outputdir,corrthres)
 
 This function plots the slope and r (Z-transformed) from the task vs. rest delay regression, using outputs from 2A (Parcel-Correlation_Calc.m)
 
 __Inputs__
-- Parcel-Correlation_Calc.m outputs - Excel sheets and .mat files 
+- Parcel_Correlation_Calc.m outputs - Excel sheets and .mat files 
 
 __Outputs__
 - A plot of median slope and median r (Z-transformed) for each amplitude threshold, across all subjects. Each colored line represents a different GM parcel with the entire GM as a black line.
