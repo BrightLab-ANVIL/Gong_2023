@@ -1,4 +1,4 @@
-function  Parcel-Correlation_Group_PerPlot(inputdir,outputdir,corrthres)
+function  Parcel_Correlation_Group_PerPlot(inputdir,outputdir,corrthres)
 % This code generates a group summary plot (of percentages of voxels 
 % remaining) based on the outputs of Parcel-Correlation_Calc.m.
 %
