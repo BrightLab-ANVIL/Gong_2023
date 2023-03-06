@@ -85,7 +85,6 @@ summary_r = median(summary_r);
 summary_slope = reshape(summary_slope',[],1);
 %summary_intercept = reshape(summary_intercept',[],1);
 summary_r = reshape(summary_r',[],1);
-summary_r = atanh(summary_r); % from r to ZF
 
 x = [1:7];
 
