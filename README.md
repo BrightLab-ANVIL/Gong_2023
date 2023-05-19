@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-DOI: << paste here when it exists >> 
+DOI: << https://doi.org/10.1016/j.neuroimage.2023.120120 >> 
 
 Unfortunately we do not have the permission to share the fMRI files, but we hope this workflow doc explains the data analysis structure! 
 
